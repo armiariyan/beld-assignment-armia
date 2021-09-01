@@ -1,4 +1,8 @@
 function func1() {
+
+    // Tadinya untuk membuat value default menjadi dinamis, namun bermasalah dengan tag td pada table di index
+    // InnerHTML nya membuat jarak, jadi diputuskan untuk default value dilakukan secara manual dan fungsi ini tidak digunakan
+
     const nama = document.querySelector("#nama").innerHTML;
     const role = document.querySelector("#role").innerHTML;
     const avaliability = document.querySelector("#avaliability").innerHTML;
