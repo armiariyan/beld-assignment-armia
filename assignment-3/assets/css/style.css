@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: whitesmoke;
+}
+
+nav {
+  border-bottom: 4px solid silver;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: white;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  text-decoration: none;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+.card {
+  margin: 2% 10%;
+  padding: 2rem;
+  box-shadow: 0 0 5px #888888;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.card img {
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.card form .form-group {
+  margin-bottom: 1rem;
+}
+
+.card form .form-group .form-input {
+  padding: 5px;
+  margin: 2px;
+  width: 100%;
+  border: 1.5px solid #888888;
+  border-radius: 4px;
+}
+
+.card form .text-center {
+  text-align: center;
+}
+
+.card form .text-center .btn-submit {
+  width: 101%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 7px green;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.card form .text-center .btn-submit:hover {
+  background-color: #015a01;
+}
+
+.card .container {
+  display: flex;
+}
+
+.card .container .container-inside {
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.card .container .container-inside #btnKontak {
+  padding: 0.7rem 1.2rem;
+  box-shadow: 0px 0px 7px blue;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+.card .container .container-inside #btnResume {
+  padding: 0.7rem 1.2rem;
+  background-color: white;
+  color: green;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.card .container table tr td b {
+  margin-right: 2rem;
+}
+
+/* Margin */
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+/* Garis Vertikal */
+#garisVertikal {
+  border-left: 1px solid #888888;
+  height: 175px;
+  width: 0.2px;
+  margin-right: 1rem;
+}
