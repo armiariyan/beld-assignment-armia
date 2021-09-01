@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portofolioku</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">GALERRY</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="#">MY INVENTORY</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <div class="card">
+        <div class="container">
+            <img src="assets/img/logo.jpeg" alt="" width="175px" class="rounded">
+
+            <div class="container-inside">
+                <h1 id="nama">Armia Riyan</h1>
+                <br>
+                <p id="role">Web Developer</p>
+                <br>
+                <button id="btnKontak">Kontak</button>
+                <button id="btnResume">Resume</button>
+            </div>
+
+            <div id="garisVertikal"></div>
+
+            <table>
+                <tr>
+                    <td>
+                        <b>Avaliability</b>
+                    </td>
+                    <td id="avaliability">
+                        Full Time
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Usia</b>
+                    </td>
+                    <td id="usia">
+                        21
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Lokasi</b>
+                    </td>
+                    <td id="lokasi">
+                        Jakarta, Indonesia
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Pengalaman</b>
+                    </td>
+                    <td id="pengalaman">
+                        4 Tahun Kuliah
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Email</b>
+                    </td>
+                    <td id="email">
+                        akunarmia@gmail.com
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Form -->
+    <div class="card">
+        <form action="">
+            <!-- Nama -->
+            <div class="form-group">
+                <label for="nama"><b>Nama</b></label>
+                <br>
+                <input type="text" class="form-input" id="inputNama" value="Armia Riyan">
+            </div>
+            <!-- Role -->
+            <div class="form-group">
+                <label for="role"><b>Role</b></label>
+                <br>
+                <input type="text" class="form-input" id="inputRole" value="Web Developer">
+            </div>
+            <!-- Avaliability -->
+            <div class="form-group">
+                <label for="avaliability"><b>Avaliability</b></label>
+                <br>
+                <input type="text" class="form-input" id="inputAvaliability" value="Full Time">
+            </div>
+            <!-- Age -->
+            <div class="form-group">
+                <label for="age"><b>Age</b></label>
+                <br>
+                <input type="text" class="form-input" id="inputUsia" value="21">
+            </div>
+            <!-- Lokasi -->
+            <div class="form-group">
+                <label for="lokasi"><b>Lokasi</b></label>
+                <br>
+                <input type="text" class="form-input" id="inputLokasi" value="Jakarta, Indonesia">
+            </div>
+            <!-- Years Experience -->
+            <div class="form-group">
+                <label for="years-experience"><b>Years Experience</b></label>
+                <br>
+                <input type="text" class="form-input" id="inputPengalaman" value="4 Tahun Kuliah">
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email"><b>Email</b></label>
+                <br>
+                <input type="email" class="form-input" id="inputEmail" value="akunarmia@gmail.com">
+            </div>
+
+            <div class="text-center">
+                <button class="btn-submit" onclick="func2()">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
