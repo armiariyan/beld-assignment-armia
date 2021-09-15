@@ -1,0 +1,1 @@
+Update data dilakukan tanpa menghapus data yang lama, hanya saja data yang ditampilkan adalah data terbaru dengan cara mengambil data dengan ID terbesar dari database
